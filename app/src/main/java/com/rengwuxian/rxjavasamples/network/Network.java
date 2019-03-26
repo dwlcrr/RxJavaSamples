@@ -7,6 +7,7 @@ import com.rengwuxian.rxjavasamples.network.api.GankApi;
 import com.rengwuxian.rxjavasamples.network.api.ZhuangbiApi;
 
 import okhttp3.OkHttpClient;
+import okhttp3.Request;
 import retrofit2.CallAdapter;
 import retrofit2.Converter;
 import retrofit2.Retrofit;

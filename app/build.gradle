@@ -2,12 +2,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 26
-    buildToolsVersion "26.0.1"
+    compileSdkVersion 27
+    buildToolsVersion "28.0.2"
 
     defaultConfig {
         applicationId "com.rengwuxian.rxjavasamples"
-        minSdkVersion 15
+        minSdkVersion 16
         targetSdkVersion 26
         versionCode 1
         versionName "2.0"

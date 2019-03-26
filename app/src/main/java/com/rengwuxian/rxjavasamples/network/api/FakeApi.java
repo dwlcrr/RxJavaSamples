@@ -2,14 +2,11 @@
 
 package com.rengwuxian.rxjavasamples.network.api;
 
-import android.support.annotation.NonNull;
-
 import com.rengwuxian.rxjavasamples.model.FakeThing;
 import com.rengwuxian.rxjavasamples.model.FakeToken;
-
 import java.util.Random;
-
 import io.reactivex.Observable;
+import io.reactivex.annotations.NonNull;
 import io.reactivex.functions.Function;
 
 public class FakeApi {

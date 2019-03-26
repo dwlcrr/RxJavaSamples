@@ -2,6 +2,7 @@
 
 package com.rengwuxian.rxjavasamples.module.map_2;
 
+import android.annotation.SuppressLint;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -30,6 +31,7 @@ import butterknife.OnClick;
 import io.reactivex.Observer;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.annotations.NonNull;
+import io.reactivex.disposables.Disposable;
 import io.reactivex.functions.Consumer;
 import io.reactivex.schedulers.Schedulers;
 
@@ -59,6 +61,7 @@ public class MapFragment extends BaseFragment {
         }
     }
 
+    @SuppressLint("CheckResult")
     private void loadPage(int page) {
         swipeRefreshLayout.setRefreshing(true);
         unsubscribe();
